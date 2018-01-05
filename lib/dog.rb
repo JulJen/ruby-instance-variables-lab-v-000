@@ -6,6 +6,10 @@ class Dog
 
 end
 
+lass = Dog.new
+lassie.name = "Lassie"
+puts lassie.name
+
 
 # describe 'name=' do
 #   it 'defines an instance variable @this_dogs_name' do
