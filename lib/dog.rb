@@ -10,8 +10,11 @@ end
 # puts lassie.name
 # end
 
-
-# describe 'name=' do
-#   it 'defines an instance variable @this_dogs_name' do
+# describe 'name' do
+#   it 'retrieves the value of an instance variable @this_dogs_name' do
 #     lassie = Dog.new
-#     lassie.name = 'Lassie'
+#     lassie.instance_variable_set("@this_dogs_name","Lassie")
+#
+#     expect(lassie.name).to eq("Lassie")
+#   end
+# end
