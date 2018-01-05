@@ -5,10 +5,10 @@ class Dog
   end
 end
 
-lassie = Dog.new
-lassie.name = "Lassie"
-puts lassie.name
-end
+# lassie = Dog.new
+# lassie.name = "Lassie"
+# puts lassie.name
+# end
 
 
 # describe 'name=' do
